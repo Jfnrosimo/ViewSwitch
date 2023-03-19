@@ -19,3 +19,12 @@ C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\refin
 C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.pdb
 C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.genruntimeconfig.cache
 C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ref\ViewSwitch.dll
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\SettingsView.g.cs
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\HomeView.baml
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\SettingsView.baml
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\App.baml
+C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.csproj.CopyComplete

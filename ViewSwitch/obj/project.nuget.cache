@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KCYzxH3Mlt1hKSPoZQUp4lXVD9Ki4L2dKR+MglIXd+Q9ABG9CmaZ8HFfSCFMcbRRgkPQtPTUCDru2+Fw5XITng==",
+  "dgSpecHash": "o0ZpzMw4WmJpr2m6p6JXJpk2HuQqQJEFcIeU0KhqTmOnI6U13A6va4bCPSXFchQH+2lJ04DdM9WPQtWdRKNjpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

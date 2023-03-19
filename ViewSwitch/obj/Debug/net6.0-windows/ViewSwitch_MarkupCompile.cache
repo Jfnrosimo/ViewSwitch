@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\App.xaml
-11121423476
+31184884592
 
-3-1938681171
-194101785492
-MVVM\View\MainWindow.xaml;
+81417922839
+196-2021003160
+MVVM\View\HomeView.xaml;MVVM\View\MainWindow.xaml;MVVM\View\SettingsView.xaml;
 
 False
 
