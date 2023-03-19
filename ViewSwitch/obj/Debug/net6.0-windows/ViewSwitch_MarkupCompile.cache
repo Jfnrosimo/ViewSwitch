@@ -1,5 +1,5 @@
 ﻿ViewSwitch
-1.0.0.0
+
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Admin\source\repos\ViewSwitch\ViewSwitch\App.xaml
-31184884592
+11121423476
 
-10194050813
+3-1938681171
 194101785492
-MVVM\View\HomeView.xaml;MVVM\View\MainWindow.xaml;MVVM\View\SettingsView.xaml;
+MVVM\View\MainWindow.xaml;
 
 False
 
