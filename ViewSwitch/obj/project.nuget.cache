@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "o0ZpzMw4WmJpr2m6p6JXJpk2HuQqQJEFcIeU0KhqTmOnI6U13A6va4bCPSXFchQH+2lJ04DdM9WPQtWdRKNjpQ==",
+  "dgSpecHash": "E+wY52gsLNc02L/RXocWpPkbWCz59zc34iTgBXoscQe+OFZ8x2URAqm2komW8CZixtUv9djMnucOMIzRMwMcaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
+  "projectFilePath": "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

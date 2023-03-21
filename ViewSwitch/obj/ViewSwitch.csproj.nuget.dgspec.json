@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj": {}
+    "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj": {
+    "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
+        "projectUniqueName": "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
         "projectName": "ViewSwitch",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\ViewSwitch\\ViewSwitch\\obj\\",
+        "projectPath": "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\source\\repos\\ViewSwitch\\ViewSwitch\\ViewSwitch.csproj",
+        "packagesPath": "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\source\\repos\\ViewSwitch\\ViewSwitch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jrosi.LAPTOP-BQH9SRCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
