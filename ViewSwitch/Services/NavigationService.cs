@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ViewSwitch.Core;
+using ViewSwitch.MVVM.ViewModel;
 
 namespace ViewSwitch.Services
 {
@@ -17,6 +18,7 @@ namespace ViewSwitch.Services
     public class NavigationService : ObservableObject, INavigationService
     {
         private ViewModel _currentView;
+        private readonly Func<Type, ViewModel> _viewModelFactory;
 
         public ViewModel CurrentView {
             get => _currentView;
@@ -27,9 +29,16 @@ namespace ViewSwitch.Services
             }
         }
 
-        public void NavigateTo<T>() where T : ViewModel
+        public NavigationService(Func<Type, ViewModel> ViewModelFactory)
         {
-            throw new NotImplementedException();
+            _viewModelFactory = ViewModelFactory;
+        }
+
+        public void NavigateTo<TViewModel>() where TViewModel : ViewModel
+        {
+            
+            ViewModel viewModel = _viewModelFactory.Invoke(typeof(TViewModel));
+            CurrentView = viewModel;
         }
     }
 }
