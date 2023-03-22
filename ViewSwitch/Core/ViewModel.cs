@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ViewSwitch.Core
 {
-    public abstract class ViewModel
+    public abstract class ViewModel : ObservableObject
     {
+
     }
 }

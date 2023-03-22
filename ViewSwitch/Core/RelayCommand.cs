@@ -6,16 +6,29 @@ namespace ViewSwitch.Core
     public class RelayCommand : ICommand
     {
 
-        public event EventHandler? CanExecuteChanged;
+        public readonly Predicate<object> _canExecute;
+        public readonly Action<object> _execute;
 
-        public bool CanExecute(object? parameter)
+        public RelayCommand(Action<object> execute, Predicate<object> canExecute)
         {
-            throw new NotImplementedException();
+            _canExecute = canExecute;
+            _execute = execute;
+        }
+        
+        public event EventHandler CanExecuteChanged
+        {
+            add => CommandManager.RequerySuggested += value;
+            remove => CommandManager.RequerySuggested -= value;
         }
 
-        public void Execute(object? parameter)
+        public bool CanExecute(object parameter)
         {
-            throw new NotImplementedException();
+            return _canExecute(parameter);
+        }
+
+        public void Execute(object parameter)
+        {
+            _execute(parameter);
         }
     }
 }
