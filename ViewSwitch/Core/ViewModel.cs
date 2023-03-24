@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ViewSwitch.MVVM.ViewModel
+namespace ViewSwitch.Core
 {
-    public class MainViewModel : Core.ViewModel
+    public abstract class ViewModel : ObservableObject
     {
+
     }
 }

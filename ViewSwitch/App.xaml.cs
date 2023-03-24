@@ -1,7 +1,9 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using System;
 using System.Windows;
 using ViewSwitch.MVVM.View;
 using ViewSwitch.MVVM.ViewModel;
+using ViewSwitch.Core;
 
 namespace ViewSwitch
 {
@@ -23,6 +25,8 @@ namespace ViewSwitch
             services.AddSingleton<MainViewModel>();
             services.AddSingleton<HomeViewModel>();
             services.AddSingleton<SettingsView>();
+
+            services.AddSingleton<Func<Type, ViewModel>>(serviceProvider => viewModelType => (ViewModel)serviceProvider.GetRequiredService(viewModelType));
 
             _serviceProvider = services.BuildServiceProvider();
         }
