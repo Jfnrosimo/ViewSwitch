@@ -16,12 +16,16 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0">
-            <Button Content="Home" Height="30" Command="{Binding Path=NavigateToHomeCommand}"/>
-            <Button Content="Settings" Height="30" Command="{Binding Path=NavigateToSettingsCommand}"/>
+            <Button
+                Height="30"
+                Command="{Binding Path=NavigateToHomeCommand}"
+                Content="Home" />
+            <Button
+                Height="30"
+                Command="{Binding Path=NavigateToSettingsViewCommand}"
+                Content="Settings" />
         </StackPanel>
 
-        <ContentControl Grid.Column="1" Content="{Binding Path=Navigation.CurrentView}">
-            
-        </ContentControl>
+        <ContentControl Grid.Column="1" Content="{Binding Path=Navigation.CurrentView}" />
     </Grid>
 </Window>
