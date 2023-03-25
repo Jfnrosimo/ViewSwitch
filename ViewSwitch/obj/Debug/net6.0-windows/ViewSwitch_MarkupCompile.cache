@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\jrosi.LAPTOP-BQH9SRCH\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\
 ViewSwitch
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\jrosi.LAPTOP-BQH9SRCH\source\repos\ViewSwitch\ViewSwitch\App.xaml
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\App.xaml
 31184884592
 
-81417922839
-1961494994710
+12-652969253
+196-1885539505
 MVVM\View\HomeView.xaml;MVVM\View\MainWindow.xaml;MVVM\View\SettingsView.xaml;
 
-False
+True
 

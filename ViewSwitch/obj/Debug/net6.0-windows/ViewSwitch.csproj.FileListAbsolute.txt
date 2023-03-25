@@ -58,3 +58,14 @@ C:\Users\jrosi.LAPTOP-BQH9SRCH\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6
 C:\Users\jrosi.LAPTOP-BQH9SRCH\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.pdb
 C:\Users\jrosi.LAPTOP-BQH9SRCH\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.genruntimeconfig.cache
 C:\Users\jrosi.LAPTOP-BQH9SRCH\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ref\ViewSwitch.dll
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.csproj.AssemblyReference.cache
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\HomeView.g.cs
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\MVVM\View\SettingsView.g.cs
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch_MarkupCompile.cache
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch_MarkupCompile.lref
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.dll
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\refint\ViewSwitch.dll
+C:\Users\jrosi\source\repos\ViewSwitch\ViewSwitch\obj\Debug\net6.0-windows\ViewSwitch.pdb
