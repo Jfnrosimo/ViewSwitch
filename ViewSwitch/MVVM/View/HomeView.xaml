@@ -17,7 +17,10 @@
                 Foreground="White"
                 Text="Home" />
 
-            <Button Height="25" Content="Settings" />
+            <Button
+                Height="25"
+                Command="{Binding Path=NavigateToSettingsViewCommand}"
+                Content="Settings" />
         </StackPanel>
     </Grid>
 </UserControl>
