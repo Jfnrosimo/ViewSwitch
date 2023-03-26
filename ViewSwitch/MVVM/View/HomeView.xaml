@@ -7,8 +7,21 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     d:DesignHeight="300"
     d:DesignWidth="300"
-    mc:Ignorable="d"
     Background="#454545"
-    >
-    <Grid />
+    mc:Ignorable="d">
+    <Grid>
+        <StackPanel VerticalAlignment="Center">
+
+            <TextBlock
+                FontSize="25"
+                Foreground="White"
+                Text="Home"
+                TextAlignment="Center" />
+
+            <Button
+                Height="25"
+                Command="{Binding Path=NavigateToSettingsViewCommand}"
+                Content="Settings" />
+        </StackPanel>
+    </Grid>
 </UserControl>

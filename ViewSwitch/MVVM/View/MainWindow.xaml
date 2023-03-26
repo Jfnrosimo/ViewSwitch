@@ -9,5 +9,23 @@
     Width="800"
     Height="450"
     mc:Ignorable="d">
-    <Grid />
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Column="0">
+            <Button
+                Height="30"
+                Command="{Binding Path=NavigateToHomeCommand}"
+                Content="Home" />
+            <Button
+                Height="30"
+                Command="{Binding Path=NavigateToSettingsViewCommand}"
+                Content="Settings" />
+        </StackPanel>
+
+        <ContentControl Grid.Column="1" Content="{Binding Path=Navigation.CurrentView}" />
+    </Grid>
 </Window>

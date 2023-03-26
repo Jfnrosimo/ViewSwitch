@@ -6,12 +6,14 @@
     xmlns:view="clr-namespace:ViewSwitch.MVVM.View"
     xmlns:viewModel="clr-namespace:ViewSwitch.MVVM.ViewModel">
     <Application.Resources>
+
         <DataTemplate DataType="{x:Type TypeName=viewModel:HomeViewModel}">
             <view:HomeView />
         </DataTemplate>
 
         <DataTemplate DataType="{x:Type TypeName=viewModel:SettingsViewModel}">
             <view:SettingsView />
+
         </DataTemplate>
     </Application.Resources>
 </Application>
