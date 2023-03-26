@@ -15,9 +15,13 @@
             <TextBlock
                 FontSize="25"
                 Foreground="White"
-                Text="Settings" />
+                Text="Settings"
+                TextAlignment="Center" />
 
-            <Button Height="25" Content="Home" />
+            <Button
+                Height="25"
+                Command="{Binding Path=NavigateToHomeCommand}"
+                Content="Home" />
         </StackPanel>
     </Grid>
 </UserControl>

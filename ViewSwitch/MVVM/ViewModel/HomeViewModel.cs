@@ -13,7 +13,8 @@ namespace ViewSwitch.MVVM.ViewModel
         private INavigationService _navigation;
         public INavigationService Navigation
         {
-            get => _navigation; set
+            get => _navigation; 
+            set
             {
                 _navigation = value;
                 OnPropertyChanged();

@@ -15,7 +15,8 @@
             <TextBlock
                 FontSize="25"
                 Foreground="White"
-                Text="Home" />
+                Text="Home"
+                TextAlignment="Center" />
 
             <Button
                 Height="25"

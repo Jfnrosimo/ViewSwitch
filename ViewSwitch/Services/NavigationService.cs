@@ -17,8 +17,8 @@ namespace ViewSwitch.Services
     }
     public class NavigationService : ObservableObject, INavigationService
     {
-        private ViewModel _currentView;
         private readonly Func<Type, ViewModel> _viewModelFactory;
+        private ViewModel _currentView;
 
         public ViewModel CurrentView {
             get => _currentView;
@@ -29,9 +29,9 @@ namespace ViewSwitch.Services
             }
         }
 
-        public NavigationService(Func<Type, ViewModel> ViewModelFactory)
+        public NavigationService(Func<Type, ViewModel> viewModelFactory)
         {
-            _viewModelFactory = ViewModelFactory;
+            _viewModelFactory = viewModelFactory;
         }
 
         public void NavigateTo<TViewModel>() where TViewModel : ViewModel
