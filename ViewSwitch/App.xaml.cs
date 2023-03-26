@@ -25,7 +25,7 @@ namespace ViewSwitch
             });
             services.AddSingleton<MainViewModel>();
             services.AddSingleton<HomeViewModel>();
-            services.AddSingleton<SettingsView>();
+            services.AddSingleton<SettingsViewModel>();
             services.AddSingleton<INavigationService, NavigationService>();
 
             services.AddSingleton<Func<Type, ViewModel>>(serviceProvider => viewModelType => (ViewModel)serviceProvider.GetRequiredService(viewModelType));
